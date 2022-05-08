@@ -8,6 +8,7 @@ jdk:
 - openjdk11
 
 before_install:
+- chmod +x mvnw
 - mvn clean
 
 script:
